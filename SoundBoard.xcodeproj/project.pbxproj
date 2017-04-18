@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EEDA96AC1EA3F414005FC2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA96AB1EA3F414005FC2C3 /* AppDelegate.swift */; };
-		EEDA96AE1EA3F414005FC2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA96AD1EA3F414005FC2C3 /* ViewController.swift */; };
+		EEDA96AE1EA3F414005FC2C3 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA96AD1EA3F414005FC2C3 /* SoundViewController.swift */; };
 		EEDA96B11EA3F414005FC2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDA96AF1EA3F414005FC2C3 /* Main.storyboard */; };
 		EEDA96B41EA3F414005FC2C3 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEDA96B21EA3F414005FC2C3 /* SoundBoard.xcdatamodeld */; };
 		EEDA96B61EA3F414005FC2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDA96B51EA3F414005FC2C3 /* Assets.xcassets */; };
 		EEDA96B91EA3F414005FC2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDA96B71EA3F414005FC2C3 /* LaunchScreen.storyboard */; };
+		EEDE1F891EA63FFF000018F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDE1F881EA63FFF000018F1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEDA96A81EA3F414005FC2C3 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDA96AB1EA3F414005FC2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEDA96AD1EA3F414005FC2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEDA96AD1EA3F414005FC2C3 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		EEDA96B01EA3F414005FC2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEDA96B31EA3F414005FC2C3 /* SoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundBoard.xcdatamodel; sourceTree = "<group>"; };
 		EEDA96B51EA3F414005FC2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDA96B81EA3F414005FC2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDA96BA1EA3F414005FC2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDE1F881EA63FFF000018F1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				EEDA96AB1EA3F414005FC2C3 /* AppDelegate.swift */,
-				EEDA96AD1EA3F414005FC2C3 /* ViewController.swift */,
+				EEDA96AD1EA3F414005FC2C3 /* SoundViewController.swift */,
+				EEDE1F881EA63FFF000018F1 /* ViewController.swift */,
 				EEDA96AF1EA3F414005FC2C3 /* Main.storyboard */,
 				EEDA96B51EA3F414005FC2C3 /* Assets.xcassets */,
 				EEDA96B71EA3F414005FC2C3 /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEDA96B41EA3F414005FC2C3 /* SoundBoard.xcdatamodeld in Sources */,
-				EEDA96AE1EA3F414005FC2C3 /* ViewController.swift in Sources */,
+				EEDA96AE1EA3F414005FC2C3 /* SoundViewController.swift in Sources */,
+				EEDE1F891EA63FFF000018F1 /* ViewController.swift in Sources */,
 				EEDA96AC1EA3F414005FC2C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +309,7 @@
 				EEDA96BF1EA3F414005FC2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
